@@ -24,6 +24,7 @@
 		FF3B707E1D19BC9A00A9CD0B /* SMStarSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B707D1D19BC9A00A9CD0B /* SMStarSystem.m */; };
 		FF3B70811D19BD1A00A9CD0B /* SMPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70801D19BD1A00A9CD0B /* SMPlanet.m */; };
 		FF3B70841D19BFAE00A9CD0B /* SMStar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70831D19BFAE00A9CD0B /* SMStar.m */; };
+		FF3B70881D19C24900A9CD0B /* SMUniverseGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70871D19C24900A9CD0B /* SMUniverseGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,9 @@
 		FF3B70801D19BD1A00A9CD0B /* SMPlanet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPlanet.m; sourceTree = "<group>"; };
 		FF3B70821D19BFAE00A9CD0B /* SMStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMStar.h; sourceTree = "<group>"; };
 		FF3B70831D19BFAE00A9CD0B /* SMStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMStar.m; sourceTree = "<group>"; };
+		FF3B70861D19C24900A9CD0B /* SMUniverseGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUniverseGenerator.h; sourceTree = "<group>"; };
+		FF3B70871D19C24900A9CD0B /* SMUniverseGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMUniverseGenerator.m; sourceTree = "<group>"; };
+		FF3B70891D19C29300A9CD0B /* UniverseConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniverseConfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,7 @@
 		FF3B70691D19B6DE00A9CD0B /* General */ = {
 			isa = PBXGroup;
 			children = (
+				FF3B70891D19C29300A9CD0B /* UniverseConfig.h */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -243,6 +248,8 @@
 		FF3B70851D19BFF900A9CD0B /* World Generator */ = {
 			isa = PBXGroup;
 			children = (
+				FF3B70861D19C24900A9CD0B /* SMUniverseGenerator.h */,
+				FF3B70871D19C24900A9CD0B /* SMUniverseGenerator.m */,
 			);
 			path = "World Generator";
 			sourceTree = "<group>";
@@ -388,6 +395,7 @@
 				FF3B70751D19BAA500A9CD0B /* SMAstronomicalObject.m in Sources */,
 				FF3B70391D19B0AE00A9CD0B /* GameScene.m in Sources */,
 				FF3B707E1D19BC9A00A9CD0B /* SMStarSystem.m in Sources */,
+				FF3B70881D19C24900A9CD0B /* SMUniverseGenerator.m in Sources */,
 				FF3B70811D19BD1A00A9CD0B /* SMPlanet.m in Sources */,
 				FF3B70721D19B7B400A9CD0B /* SMUniverse.m in Sources */,
 				FF3B70331D19B0AE00A9CD0B /* main.m in Sources */,
