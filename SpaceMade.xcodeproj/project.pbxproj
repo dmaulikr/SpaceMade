@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3B70331D19B0AE00A9CD0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70321D19B0AE00A9CD0B /* main.m */; };
+		FF3B70361D19B0AE00A9CD0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70351D19B0AE00A9CD0B /* AppDelegate.m */; };
+		FF3B70391D19B0AE00A9CD0B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70381D19B0AE00A9CD0B /* GameScene.m */; };
+		FF3B703B1D19B0AE00A9CD0B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FF3B703A1D19B0AE00A9CD0B /* GameScene.sks */; };
+		FF3B703E1D19B0AE00A9CD0B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B703D1D19B0AE00A9CD0B /* GameViewController.m */; };
+		FF3B70411D19B0AE00A9CD0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3B703F1D19B0AE00A9CD0B /* Main.storyboard */; };
+		FF3B70431D19B0AE00A9CD0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3B70421D19B0AE00A9CD0B /* Assets.xcassets */; };
+		FF3B70461D19B0AE00A9CD0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3B70441D19B0AE00A9CD0B /* LaunchScreen.storyboard */; };
+		FF3B70511D19B0AE00A9CD0B /* SpaceMadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70501D19B0AE00A9CD0B /* SpaceMadeTests.m */; };
+		FF3B705C1D19B0AE00A9CD0B /* SpaceMadeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B705B1D19B0AE00A9CD0B /* SpaceMadeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF3B704D1D19B0AE00A9CD0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3B70261D19B0AE00A9CD0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3B702D1D19B0AE00A9CD0B;
+			remoteInfo = SpaceMade;
+		};
+		FF3B70581D19B0AE00A9CD0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3B70261D19B0AE00A9CD0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3B702D1D19B0AE00A9CD0B;
+			remoteInfo = SpaceMade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF3B702E1D19B0AE00A9CD0B /* SpaceMade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceMade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3B70321D19B0AE00A9CD0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF3B70341D19B0AE00A9CD0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF3B70351D19B0AE00A9CD0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF3B70371D19B0AE00A9CD0B /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		FF3B70381D19B0AE00A9CD0B /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		FF3B703A1D19B0AE00A9CD0B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FF3B703C1D19B0AE00A9CD0B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		FF3B703D1D19B0AE00A9CD0B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		FF3B70401D19B0AE00A9CD0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF3B70421D19B0AE00A9CD0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF3B70451D19B0AE00A9CD0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF3B70471D19B0AE00A9CD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3B704C1D19B0AE00A9CD0B /* SpaceMadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceMadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3B70501D19B0AE00A9CD0B /* SpaceMadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceMadeTests.m; sourceTree = "<group>"; };
+		FF3B70521D19B0AE00A9CD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3B70571D19B0AE00A9CD0B /* SpaceMadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceMadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3B705B1D19B0AE00A9CD0B /* SpaceMadeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceMadeUITests.m; sourceTree = "<group>"; };
+		FF3B705D1D19B0AF00A9CD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3B702B1D19B0AE00A9CD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3B70491D19B0AE00A9CD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3B70541D19B0AE00A9CD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3B70251D19B0AE00A9CD0B = {
+			isa = PBXGroup;
+			children = (
+				FF3B70301D19B0AE00A9CD0B /* SpaceMade */,
+				FF3B704F1D19B0AE00A9CD0B /* SpaceMadeTests */,
+				FF3B705A1D19B0AE00A9CD0B /* SpaceMadeUITests */,
+				FF3B702F1D19B0AE00A9CD0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3B702F1D19B0AE00A9CD0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B702E1D19B0AE00A9CD0B /* SpaceMade.app */,
+				FF3B704C1D19B0AE00A9CD0B /* SpaceMadeTests.xctest */,
+				FF3B70571D19B0AE00A9CD0B /* SpaceMadeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3B70301D19B0AE00A9CD0B /* SpaceMade */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B70341D19B0AE00A9CD0B /* AppDelegate.h */,
+				FF3B70351D19B0AE00A9CD0B /* AppDelegate.m */,
+				FF3B70371D19B0AE00A9CD0B /* GameScene.h */,
+				FF3B70381D19B0AE00A9CD0B /* GameScene.m */,
+				FF3B703A1D19B0AE00A9CD0B /* GameScene.sks */,
+				FF3B703C1D19B0AE00A9CD0B /* GameViewController.h */,
+				FF3B703D1D19B0AE00A9CD0B /* GameViewController.m */,
+				FF3B703F1D19B0AE00A9CD0B /* Main.storyboard */,
+				FF3B70421D19B0AE00A9CD0B /* Assets.xcassets */,
+				FF3B70441D19B0AE00A9CD0B /* LaunchScreen.storyboard */,
+				FF3B70471D19B0AE00A9CD0B /* Info.plist */,
+				FF3B70311D19B0AE00A9CD0B /* Supporting Files */,
+			);
+			path = SpaceMade;
+			sourceTree = "<group>";
+		};
+		FF3B70311D19B0AE00A9CD0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B70321D19B0AE00A9CD0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3B704F1D19B0AE00A9CD0B /* SpaceMadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B70501D19B0AE00A9CD0B /* SpaceMadeTests.m */,
+				FF3B70521D19B0AE00A9CD0B /* Info.plist */,
+			);
+			path = SpaceMadeTests;
+			sourceTree = "<group>";
+		};
+		FF3B705A1D19B0AE00A9CD0B /* SpaceMadeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B705B1D19B0AE00A9CD0B /* SpaceMadeUITests.m */,
+				FF3B705D1D19B0AF00A9CD0B /* Info.plist */,
+			);
+			path = SpaceMadeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3B702D1D19B0AE00A9CD0B /* SpaceMade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3B70601D19B0AF00A9CD0B /* Build configuration list for PBXNativeTarget "SpaceMade" */;
+			buildPhases = (
+				FF3B702A1D19B0AE00A9CD0B /* Sources */,
+				FF3B702B1D19B0AE00A9CD0B /* Frameworks */,
+				FF3B702C1D19B0AE00A9CD0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceMade;
+			productName = SpaceMade;
+			productReference = FF3B702E1D19B0AE00A9CD0B /* SpaceMade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF3B704B1D19B0AE00A9CD0B /* SpaceMadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3B70631D19B0AF00A9CD0B /* Build configuration list for PBXNativeTarget "SpaceMadeTests" */;
+			buildPhases = (
+				FF3B70481D19B0AE00A9CD0B /* Sources */,
+				FF3B70491D19B0AE00A9CD0B /* Frameworks */,
+				FF3B704A1D19B0AE00A9CD0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3B704E1D19B0AE00A9CD0B /* PBXTargetDependency */,
+			);
+			name = SpaceMadeTests;
+			productName = SpaceMadeTests;
+			productReference = FF3B704C1D19B0AE00A9CD0B /* SpaceMadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF3B70561D19B0AE00A9CD0B /* SpaceMadeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3B70661D19B0AF00A9CD0B /* Build configuration list for PBXNativeTarget "SpaceMadeUITests" */;
+			buildPhases = (
+				FF3B70531D19B0AE00A9CD0B /* Sources */,
+				FF3B70541D19B0AE00A9CD0B /* Frameworks */,
+				FF3B70551D19B0AE00A9CD0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3B70591D19B0AE00A9CD0B /* PBXTargetDependency */,
+			);
+			name = SpaceMadeUITests;
+			productName = SpaceMadeUITests;
+			productReference = FF3B70571D19B0AE00A9CD0B /* SpaceMadeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3B70261D19B0AE00A9CD0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vladislav Averin";
+				TargetAttributes = {
+					FF3B702D1D19B0AE00A9CD0B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T55G7JLVK5;
+					};
+					FF3B704B1D19B0AE00A9CD0B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FF3B702D1D19B0AE00A9CD0B;
+					};
+					FF3B70561D19B0AE00A9CD0B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FF3B702D1D19B0AE00A9CD0B;
+					};
+				};
+			};
+			buildConfigurationList = FF3B70291D19B0AE00A9CD0B /* Build configuration list for PBXProject "SpaceMade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3B70251D19B0AE00A9CD0B;
+			productRefGroup = FF3B702F1D19B0AE00A9CD0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3B702D1D19B0AE00A9CD0B /* SpaceMade */,
+				FF3B704B1D19B0AE00A9CD0B /* SpaceMadeTests */,
+				FF3B70561D19B0AE00A9CD0B /* SpaceMadeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF3B702C1D19B0AE00A9CD0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3B703B1D19B0AE00A9CD0B /* GameScene.sks in Resources */,
+				FF3B70461D19B0AE00A9CD0B /* LaunchScreen.storyboard in Resources */,
+				FF3B70431D19B0AE00A9CD0B /* Assets.xcassets in Resources */,
+				FF3B70411D19B0AE00A9CD0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3B704A1D19B0AE00A9CD0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3B70551D19B0AE00A9CD0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3B702A1D19B0AE00A9CD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3B703E1D19B0AE00A9CD0B /* GameViewController.m in Sources */,
+				FF3B70361D19B0AE00A9CD0B /* AppDelegate.m in Sources */,
+				FF3B70391D19B0AE00A9CD0B /* GameScene.m in Sources */,
+				FF3B70331D19B0AE00A9CD0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3B70481D19B0AE00A9CD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3B70511D19B0AE00A9CD0B /* SpaceMadeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3B70531D19B0AE00A9CD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3B705C1D19B0AE00A9CD0B /* SpaceMadeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF3B704E1D19B0AE00A9CD0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF3B702D1D19B0AE00A9CD0B /* SpaceMade */;
+			targetProxy = FF3B704D1D19B0AE00A9CD0B /* PBXContainerItemProxy */;
+		};
+		FF3B70591D19B0AE00A9CD0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF3B702D1D19B0AE00A9CD0B /* SpaceMade */;
+			targetProxy = FF3B70581D19B0AE00A9CD0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF3B703F1D19B0AE00A9CD0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3B70401D19B0AE00A9CD0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF3B70441D19B0AE00A9CD0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3B70451D19B0AE00A9CD0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3B705E1D19B0AF00A9CD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF3B705F1D19B0AF00A9CD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF3B70611D19B0AF00A9CD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SpaceMade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.SpaceMade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF3B70621D19B0AF00A9CD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SpaceMade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.SpaceMade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF3B70641D19B0AF00A9CD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SpaceMadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.SpaceMadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceMade.app/SpaceMade";
+			};
+			name = Debug;
+		};
+		FF3B70651D19B0AF00A9CD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpaceMadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.SpaceMadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceMade.app/SpaceMade";
+			};
+			name = Release;
+		};
+		FF3B70671D19B0AF00A9CD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SpaceMadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.SpaceMadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpaceMade;
+			};
+			name = Debug;
+		};
+		FF3B70681D19B0AF00A9CD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpaceMadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.SpaceMadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpaceMade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3B70291D19B0AE00A9CD0B /* Build configuration list for PBXProject "SpaceMade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3B705E1D19B0AF00A9CD0B /* Debug */,
+				FF3B705F1D19B0AF00A9CD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3B70601D19B0AF00A9CD0B /* Build configuration list for PBXNativeTarget "SpaceMade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3B70611D19B0AF00A9CD0B /* Debug */,
+				FF3B70621D19B0AF00A9CD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF3B70631D19B0AF00A9CD0B /* Build configuration list for PBXNativeTarget "SpaceMadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3B70641D19B0AF00A9CD0B /* Debug */,
+				FF3B70651D19B0AF00A9CD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF3B70661D19B0AF00A9CD0B /* Build configuration list for PBXNativeTarget "SpaceMadeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3B70671D19B0AF00A9CD0B /* Debug */,
+				FF3B70681D19B0AF00A9CD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3B70261D19B0AE00A9CD0B /* Project object */;
+}
