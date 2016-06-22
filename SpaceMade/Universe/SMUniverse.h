@@ -11,14 +11,6 @@
 
 @interface SMUniverse : NSObject
 
-/**
- The universe we all live in
- */
-+ (instancetype)ourUniverse;
-
-/**
- Theoretical parallel universe (not used)
- */
-+ (instancetype)parallelUniverse UNAVAILABLE_ATTRIBUTE;
++ (instancetype)universeWithGalaxies:(NSArray *)galaxies;
 
 @end

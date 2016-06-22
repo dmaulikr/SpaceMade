@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  SpaceMade
+//
+//  Created by Vladislav Averin on 22/06/16.
+//  Copyright © 2016 Vladislav Averin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UniverseConfig.h"
+#import "SMTypes.h"
+#import "SMBrain.h"
+
+#endif /* PrefixHeader_pch */

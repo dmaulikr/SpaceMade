@@ -9,34 +9,28 @@
 #import "SMUniverse.h"
 
 @interface SMUniverse () {
-    
+    NSArray *_galaxies;
 }
 
 @end
 
 @implementation SMUniverse
 
-#pragma mark - Universe singleton
+#pragma mark - Universe creation
 
-/**
- The universe we all live in
- */
-+ (instancetype)ourUniverse {
-    static SMUniverse *realUniverse = nil;
-    
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        realUniverse = [[SMUniverse alloc] init];
-    });
-    
-    return realUniverse;
++ (instancetype)universeWithGalaxies:(NSArray *)galaxies {
+    SMUniverse *universe = [[self alloc] initWithGalaxies:galaxies];
+    return universe;
 }
 
-/**
- Theoretical parallel universe (not used)
- */
-+ (instancetype)parallelUniverse {
-    return nil;
-};
+#pragma mark - Init
+
+- (instancetype)initWithGalaxies:(NSArray *)galaxies {
+    if (self = [super init]) {
+        _galaxies = galaxies;
+    }
+    
+    return self;
+}
 
 @end

@@ -7,12 +7,13 @@
 //
 
 #import "GameViewController.h"
-#import "GameScene.h"
+#import "SMStarSystemScene.h"
 
 @implementation GameViewController
 
-- (void)viewDidLoad
-{
+#pragma mark - View life cycle
+
+- (void)viewDidLoad {
     [super viewDidLoad];
 
     // Configure the view.
@@ -23,35 +24,37 @@
     skView.ignoresSiblingOrder = YES;
     
     // Create and configure the scene.
-    GameScene *scene = [GameScene nodeWithFileNamed:@"GameScene"];
+    SMStarSystemScene *scene = [SMStarSystemScene nodeWithFileNamed:@"StarSystemScene"];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
     [skView presentScene:scene];
 }
 
-- (BOOL)shouldAutorotate
-{
+#pragma mark - Data generation
+
+- (void)generateTestWorld {
+    
+}
+
+#pragma mark - Orientation
+
+- (BOOL)shouldAutorotate {
     return YES;
 }
 
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations
-{
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return UIInterfaceOrientationMaskAllButUpsideDown;
-    } else {
-        return UIInterfaceOrientationMaskAll;
-    }
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskLandscape;
 }
 
 - (BOOL)prefersStatusBarHidden {
     return YES;
+}
+
+#pragma mark - System messages
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
 }
 
 @end

@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF3B70331D19B0AE00A9CD0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70321D19B0AE00A9CD0B /* main.m */; };
-		FF3B70361D19B0AE00A9CD0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70351D19B0AE00A9CD0B /* AppDelegate.m */; };
-		FF3B70391D19B0AE00A9CD0B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70381D19B0AE00A9CD0B /* GameScene.m */; };
-		FF3B703B1D19B0AE00A9CD0B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FF3B703A1D19B0AE00A9CD0B /* GameScene.sks */; };
-		FF3B703E1D19B0AE00A9CD0B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B703D1D19B0AE00A9CD0B /* GameViewController.m */; };
 		FF3B70411D19B0AE00A9CD0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3B703F1D19B0AE00A9CD0B /* Main.storyboard */; };
 		FF3B70431D19B0AE00A9CD0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3B70421D19B0AE00A9CD0B /* Assets.xcassets */; };
 		FF3B70461D19B0AE00A9CD0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3B70441D19B0AE00A9CD0B /* LaunchScreen.storyboard */; };
@@ -25,6 +20,18 @@
 		FF3B70811D19BD1A00A9CD0B /* SMPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70801D19BD1A00A9CD0B /* SMPlanet.m */; };
 		FF3B70841D19BFAE00A9CD0B /* SMStar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70831D19BFAE00A9CD0B /* SMStar.m */; };
 		FF3B70881D19C24900A9CD0B /* SMUniverseGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70871D19C24900A9CD0B /* SMUniverseGenerator.m */; };
+		FF3B708F1D19E75700A9CD0B /* SMStarSystemScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B708D1D19E75700A9CD0B /* SMStarSystemScene.m */; };
+		FF3B70901D19E75700A9CD0B /* StarSystemScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FF3B708E1D19E75700A9CD0B /* StarSystemScene.sks */; };
+		FF3B70931D19E77C00A9CD0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70921D19E77C00A9CD0B /* AppDelegate.m */; };
+		FF3B70961D19E7C500A9CD0B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF3B70941D19E7C500A9CD0B /* Info.plist */; };
+		FF3B70971D19E7C500A9CD0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70951D19E7C500A9CD0B /* main.m */; };
+		FF3B709C1D19E80000A9CD0B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B709B1D19E80000A9CD0B /* GameViewController.m */; };
+		FF3B70A51D19EB6500A9CD0B /* SMPlanetNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70A41D19EB6500A9CD0B /* SMPlanetNode.m */; };
+		FF3B70AC1D19EFBA00A9CD0B /* SMGalaxyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70AB1D19EFBA00A9CD0B /* SMGalaxyGenerator.m */; };
+		FF3B70AF1D19EFD000A9CD0B /* SMStarSystemGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70AE1D19EFD000A9CD0B /* SMStarSystemGenerator.m */; };
+		FF3B70B21D19EFE400A9CD0B /* SMPlanetGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70B11D19EFE400A9CD0B /* SMPlanetGenerator.m */; };
+		FF3B70B51D19EFEF00A9CD0B /* SMStarGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70B41D19EFEF00A9CD0B /* SMStarGenerator.m */; };
+		FF3B70B91D19F42800A9CD0B /* SMBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70B81D19F42800A9CD0B /* SMBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,18 +53,9 @@
 
 /* Begin PBXFileReference section */
 		FF3B702E1D19B0AE00A9CD0B /* SpaceMade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceMade.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF3B70321D19B0AE00A9CD0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FF3B70341D19B0AE00A9CD0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FF3B70351D19B0AE00A9CD0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF3B70371D19B0AE00A9CD0B /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		FF3B70381D19B0AE00A9CD0B /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		FF3B703A1D19B0AE00A9CD0B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FF3B703C1D19B0AE00A9CD0B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		FF3B703D1D19B0AE00A9CD0B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		FF3B70401D19B0AE00A9CD0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF3B70421D19B0AE00A9CD0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF3B70451D19B0AE00A9CD0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FF3B70471D19B0AE00A9CD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF3B704C1D19B0AE00A9CD0B /* SpaceMadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceMadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3B70501D19B0AE00A9CD0B /* SpaceMadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceMadeTests.m; sourceTree = "<group>"; };
 		FF3B70521D19B0AE00A9CD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +79,29 @@
 		FF3B70861D19C24900A9CD0B /* SMUniverseGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUniverseGenerator.h; sourceTree = "<group>"; };
 		FF3B70871D19C24900A9CD0B /* SMUniverseGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMUniverseGenerator.m; sourceTree = "<group>"; };
 		FF3B70891D19C29300A9CD0B /* UniverseConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniverseConfig.h; sourceTree = "<group>"; };
+		FF3B708C1D19E75700A9CD0B /* SMStarSystemScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMStarSystemScene.h; sourceTree = "<group>"; };
+		FF3B708D1D19E75700A9CD0B /* SMStarSystemScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMStarSystemScene.m; sourceTree = "<group>"; };
+		FF3B708E1D19E75700A9CD0B /* StarSystemScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarSystemScene.sks; sourceTree = "<group>"; };
+		FF3B70911D19E77C00A9CD0B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF3B70921D19E77C00A9CD0B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF3B70941D19E7C500A9CD0B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3B70951D19E7C500A9CD0B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF3B709A1D19E80000A9CD0B /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		FF3B709B1D19E80000A9CD0B /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		FF3B70A31D19EB6500A9CD0B /* SMPlanetNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPlanetNode.h; sourceTree = "<group>"; };
+		FF3B70A41D19EB6500A9CD0B /* SMPlanetNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPlanetNode.m; sourceTree = "<group>"; };
+		FF3B70AA1D19EFBA00A9CD0B /* SMGalaxyGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMGalaxyGenerator.h; sourceTree = "<group>"; };
+		FF3B70AB1D19EFBA00A9CD0B /* SMGalaxyGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMGalaxyGenerator.m; sourceTree = "<group>"; };
+		FF3B70AD1D19EFD000A9CD0B /* SMStarSystemGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMStarSystemGenerator.h; sourceTree = "<group>"; };
+		FF3B70AE1D19EFD000A9CD0B /* SMStarSystemGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMStarSystemGenerator.m; sourceTree = "<group>"; };
+		FF3B70B01D19EFE400A9CD0B /* SMPlanetGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPlanetGenerator.h; sourceTree = "<group>"; };
+		FF3B70B11D19EFE400A9CD0B /* SMPlanetGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPlanetGenerator.m; sourceTree = "<group>"; };
+		FF3B70B31D19EFEF00A9CD0B /* SMStarGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMStarGenerator.h; sourceTree = "<group>"; };
+		FF3B70B41D19EFEF00A9CD0B /* SMStarGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMStarGenerator.m; sourceTree = "<group>"; };
+		FF3B70B61D19F02C00A9CD0B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FF3B70B71D19F42800A9CD0B /* SMBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBrain.h; sourceTree = "<group>"; };
+		FF3B70B81D19F42800A9CD0B /* SMBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMBrain.m; sourceTree = "<group>"; };
+		FF3B70BA1D19F5AC00A9CD0B /* SMTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMTypes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,17 +155,12 @@
 				FF3B70691D19B6DE00A9CD0B /* General */,
 				FF3B70851D19BFF900A9CD0B /* World Generator */,
 				FF3B706A1D19B6DE00A9CD0B /* Universe */,
-				FF3B70341D19B0AE00A9CD0B /* AppDelegate.h */,
-				FF3B70351D19B0AE00A9CD0B /* AppDelegate.m */,
-				FF3B70371D19B0AE00A9CD0B /* GameScene.h */,
-				FF3B70381D19B0AE00A9CD0B /* GameScene.m */,
-				FF3B703A1D19B0AE00A9CD0B /* GameScene.sks */,
-				FF3B703C1D19B0AE00A9CD0B /* GameViewController.h */,
-				FF3B703D1D19B0AE00A9CD0B /* GameViewController.m */,
+				FF3B708A1D19E6F900A9CD0B /* Scenes */,
+				FF3B709D1D19E95400A9CD0B /* Nodes */,
+				FF3B70981D19E80000A9CD0B /* Controllers */,
 				FF3B703F1D19B0AE00A9CD0B /* Main.storyboard */,
 				FF3B70421D19B0AE00A9CD0B /* Assets.xcassets */,
 				FF3B70441D19B0AE00A9CD0B /* LaunchScreen.storyboard */,
-				FF3B70471D19B0AE00A9CD0B /* Info.plist */,
 				FF3B70311D19B0AE00A9CD0B /* Supporting Files */,
 			);
 			path = SpaceMade;
@@ -153,7 +169,7 @@
 		FF3B70311D19B0AE00A9CD0B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF3B70321D19B0AE00A9CD0B /* main.m */,
+				FF3B70B61D19F02C00A9CD0B /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -179,7 +195,12 @@
 		FF3B70691D19B6DE00A9CD0B /* General */ = {
 			isa = PBXGroup;
 			children = (
+				FF3B70BA1D19F5AC00A9CD0B /* SMTypes.h */,
 				FF3B70891D19C29300A9CD0B /* UniverseConfig.h */,
+				FF3B70911D19E77C00A9CD0B /* AppDelegate.h */,
+				FF3B70921D19E77C00A9CD0B /* AppDelegate.m */,
+				FF3B70941D19E7C500A9CD0B /* Info.plist */,
+				FF3B70951D19E7C500A9CD0B /* main.m */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -248,10 +269,136 @@
 		FF3B70851D19BFF900A9CD0B /* World Generator */ = {
 			isa = PBXGroup;
 			children = (
+				FF3B70B71D19F42800A9CD0B /* SMBrain.h */,
+				FF3B70B81D19F42800A9CD0B /* SMBrain.m */,
 				FF3B70861D19C24900A9CD0B /* SMUniverseGenerator.h */,
 				FF3B70871D19C24900A9CD0B /* SMUniverseGenerator.m */,
+				FF3B70A61D19ED4700A9CD0B /* Galaxy Generator */,
 			);
 			path = "World Generator";
+			sourceTree = "<group>";
+		};
+		FF3B708A1D19E6F900A9CD0B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B708B1D19E73700A9CD0B /* StarSystem */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FF3B708B1D19E73700A9CD0B /* StarSystem */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B708C1D19E75700A9CD0B /* SMStarSystemScene.h */,
+				FF3B708D1D19E75700A9CD0B /* SMStarSystemScene.m */,
+				FF3B708E1D19E75700A9CD0B /* StarSystemScene.sks */,
+			);
+			path = StarSystem;
+			sourceTree = "<group>";
+		};
+		FF3B70981D19E80000A9CD0B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B70991D19E80000A9CD0B /* Game Controller */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF3B70991D19E80000A9CD0B /* Game Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B709A1D19E80000A9CD0B /* GameViewController.h */,
+				FF3B709B1D19E80000A9CD0B /* GameViewController.m */,
+			);
+			path = "Game Controller";
+			sourceTree = "<group>";
+		};
+		FF3B709D1D19E95400A9CD0B /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B709E1D19EB0100A9CD0B /* Universe */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		FF3B709E1D19EB0100A9CD0B /* Universe */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B709F1D19EB0100A9CD0B /* Galaxy */,
+			);
+			path = Universe;
+			sourceTree = "<group>";
+		};
+		FF3B709F1D19EB0100A9CD0B /* Galaxy */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B70A01D19EB0100A9CD0B /* Star System */,
+			);
+			path = Galaxy;
+			sourceTree = "<group>";
+		};
+		FF3B70A01D19EB0100A9CD0B /* Star System */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B70A11D19EB0100A9CD0B /* Planet */,
+				FF3B70A21D19EB0100A9CD0B /* Star */,
+			);
+			path = "Star System";
+			sourceTree = "<group>";
+		};
+		FF3B70A11D19EB0100A9CD0B /* Planet */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B70A31D19EB6500A9CD0B /* SMPlanetNode.h */,
+				FF3B70A41D19EB6500A9CD0B /* SMPlanetNode.m */,
+			);
+			path = Planet;
+			sourceTree = "<group>";
+		};
+		FF3B70A21D19EB0100A9CD0B /* Star */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Star;
+			sourceTree = "<group>";
+		};
+		FF3B70A61D19ED4700A9CD0B /* Galaxy Generator */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B70AA1D19EFBA00A9CD0B /* SMGalaxyGenerator.h */,
+				FF3B70AB1D19EFBA00A9CD0B /* SMGalaxyGenerator.m */,
+				FF3B70A71D19ED4700A9CD0B /* Star System Generator */,
+			);
+			path = "Galaxy Generator";
+			sourceTree = "<group>";
+		};
+		FF3B70A71D19ED4700A9CD0B /* Star System Generator */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B70AD1D19EFD000A9CD0B /* SMStarSystemGenerator.h */,
+				FF3B70AE1D19EFD000A9CD0B /* SMStarSystemGenerator.m */,
+				FF3B70A81D19ED4700A9CD0B /* Planet Generator */,
+				FF3B70A91D19ED4700A9CD0B /* Star Generator */,
+			);
+			path = "Star System Generator";
+			sourceTree = "<group>";
+		};
+		FF3B70A81D19ED4700A9CD0B /* Planet Generator */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B70B01D19EFE400A9CD0B /* SMPlanetGenerator.h */,
+				FF3B70B11D19EFE400A9CD0B /* SMPlanetGenerator.m */,
+			);
+			path = "Planet Generator";
+			sourceTree = "<group>";
+		};
+		FF3B70A91D19ED4700A9CD0B /* Star Generator */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B70B31D19EFEF00A9CD0B /* SMStarGenerator.h */,
+				FF3B70B41D19EFEF00A9CD0B /* SMStarGenerator.m */,
+			);
+			path = "Star Generator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,10 +506,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF3B703B1D19B0AE00A9CD0B /* GameScene.sks in Resources */,
 				FF3B70461D19B0AE00A9CD0B /* LaunchScreen.storyboard in Resources */,
 				FF3B70431D19B0AE00A9CD0B /* Assets.xcassets in Resources */,
 				FF3B70411D19B0AE00A9CD0B /* Main.storyboard in Resources */,
+				FF3B70961D19E7C500A9CD0B /* Info.plist in Resources */,
+				FF3B70901D19E75700A9CD0B /* StarSystemScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,18 +535,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF3B70AF1D19EFD000A9CD0B /* SMStarSystemGenerator.m in Sources */,
+				FF3B70971D19E7C500A9CD0B /* main.m in Sources */,
 				FF3B70781D19BBED00A9CD0B /* SMSpaceFormation.m in Sources */,
-				FF3B703E1D19B0AE00A9CD0B /* GameViewController.m in Sources */,
+				FF3B70A51D19EB6500A9CD0B /* SMPlanetNode.m in Sources */,
+				FF3B70B51D19EFEF00A9CD0B /* SMStarGenerator.m in Sources */,
 				FF3B70841D19BFAE00A9CD0B /* SMStar.m in Sources */,
-				FF3B70361D19B0AE00A9CD0B /* AppDelegate.m in Sources */,
 				FF3B707B1D19BC7000A9CD0B /* SMGalaxy.m in Sources */,
 				FF3B70751D19BAA500A9CD0B /* SMAstronomicalObject.m in Sources */,
-				FF3B70391D19B0AE00A9CD0B /* GameScene.m in Sources */,
+				FF3B709C1D19E80000A9CD0B /* GameViewController.m in Sources */,
 				FF3B707E1D19BC9A00A9CD0B /* SMStarSystem.m in Sources */,
+				FF3B70B21D19EFE400A9CD0B /* SMPlanetGenerator.m in Sources */,
 				FF3B70881D19C24900A9CD0B /* SMUniverseGenerator.m in Sources */,
+				FF3B70B91D19F42800A9CD0B /* SMBrain.m in Sources */,
 				FF3B70811D19BD1A00A9CD0B /* SMPlanet.m in Sources */,
+				FF3B70931D19E77C00A9CD0B /* AppDelegate.m in Sources */,
 				FF3B70721D19B7B400A9CD0B /* SMUniverse.m in Sources */,
-				FF3B70331D19B0AE00A9CD0B /* main.m in Sources */,
+				FF3B708F1D19E75700A9CD0B /* SMStarSystemScene.m in Sources */,
+				FF3B70AC1D19EFBA00A9CD0B /* SMGalaxyGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,12 +695,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vladislav Averin (7939B8NQ8X)";
+				GCC_PREFIX_HEADER = SpaceMade/PrefixHeader.pch;
 				INFOPLIST_FILE = SpaceMade/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.SpaceMade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "55eea6b9-4f3e-4c59-8f9a-a9a737e7bac4";
 			};
 			name = Debug;
 		};
@@ -554,12 +710,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vladislav Averin (7939B8NQ8X)";
+				GCC_PREFIX_HEADER = SpaceMade/PrefixHeader.pch;
 				INFOPLIST_FILE = SpaceMade/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.SpaceMade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "55eea6b9-4f3e-4c59-8f9a-a9a737e7bac4";
 			};
 			name = Release;
 		};

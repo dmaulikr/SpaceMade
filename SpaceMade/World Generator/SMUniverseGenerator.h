@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SMUniverse.h"
 
 @interface SMUniverseGenerator : NSObject
+
+/**
+ Generates unique universe that game will use
+ */
++ (SMUniverse *)newUniverse;
 
 @end
