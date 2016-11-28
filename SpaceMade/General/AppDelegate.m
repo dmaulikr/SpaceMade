@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "PerlinNoise.h"
+#import "SMUniverseGenerator.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    /* Test universe */
+    SMUniverse *universe = [SMUniverseGenerator newUniverse];
+    
     return YES;
 }
 

@@ -13,4 +13,6 @@
  */
 @interface SMStarSystem : SMSpaceFormation
 
++ (instancetype)starSystemWithStars:(NSArray *)stars planets:(NSArray *)planets;
+
 @end

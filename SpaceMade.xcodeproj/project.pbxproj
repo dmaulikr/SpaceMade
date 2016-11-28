@@ -29,9 +29,10 @@
 		FF3B70A51D19EB6500A9CD0B /* SMPlanetNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70A41D19EB6500A9CD0B /* SMPlanetNode.m */; };
 		FF3B70AC1D19EFBA00A9CD0B /* SMGalaxyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70AB1D19EFBA00A9CD0B /* SMGalaxyGenerator.m */; };
 		FF3B70AF1D19EFD000A9CD0B /* SMStarSystemGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70AE1D19EFD000A9CD0B /* SMStarSystemGenerator.m */; };
-		FF3B70B21D19EFE400A9CD0B /* SMPlanetGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70B11D19EFE400A9CD0B /* SMPlanetGenerator.m */; };
+		FF3B70B21D19EFE400A9CD0B /* SMPlanetGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70B11D19EFE400A9CD0B /* SMPlanetGenerator.mm */; };
 		FF3B70B51D19EFEF00A9CD0B /* SMStarGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70B41D19EFEF00A9CD0B /* SMStarGenerator.m */; };
 		FF3B70B91D19F42800A9CD0B /* SMBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B70B81D19F42800A9CD0B /* SMBrain.m */; };
+		FFDA3D571D1C2681008E597D /* PerlinNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDA3D561D1C2681008E597D /* PerlinNoise.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,13 +96,15 @@
 		FF3B70AD1D19EFD000A9CD0B /* SMStarSystemGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMStarSystemGenerator.h; sourceTree = "<group>"; };
 		FF3B70AE1D19EFD000A9CD0B /* SMStarSystemGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMStarSystemGenerator.m; sourceTree = "<group>"; };
 		FF3B70B01D19EFE400A9CD0B /* SMPlanetGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPlanetGenerator.h; sourceTree = "<group>"; };
-		FF3B70B11D19EFE400A9CD0B /* SMPlanetGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPlanetGenerator.m; sourceTree = "<group>"; };
+		FF3B70B11D19EFE400A9CD0B /* SMPlanetGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SMPlanetGenerator.mm; sourceTree = "<group>"; };
 		FF3B70B31D19EFEF00A9CD0B /* SMStarGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMStarGenerator.h; sourceTree = "<group>"; };
 		FF3B70B41D19EFEF00A9CD0B /* SMStarGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMStarGenerator.m; sourceTree = "<group>"; };
 		FF3B70B61D19F02C00A9CD0B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FF3B70B71D19F42800A9CD0B /* SMBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBrain.h; sourceTree = "<group>"; };
 		FF3B70B81D19F42800A9CD0B /* SMBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMBrain.m; sourceTree = "<group>"; };
 		FF3B70BA1D19F5AC00A9CD0B /* SMTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMTypes.h; sourceTree = "<group>"; };
+		FFDA3D551D1C2681008E597D /* PerlinNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerlinNoise.h; sourceTree = "<group>"; };
+		FFDA3D561D1C2681008E597D /* PerlinNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerlinNoise.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				FF3B70301D19B0AE00A9CD0B /* SpaceMade */,
+				FFDA3D531D1C2681008E597D /* Libs */,
 				FF3B704F1D19B0AE00A9CD0B /* SpaceMadeTests */,
 				FF3B705A1D19B0AE00A9CD0B /* SpaceMadeUITests */,
 				FF3B702F1D19B0AE00A9CD0B /* Products */,
@@ -387,7 +391,7 @@
 			isa = PBXGroup;
 			children = (
 				FF3B70B01D19EFE400A9CD0B /* SMPlanetGenerator.h */,
-				FF3B70B11D19EFE400A9CD0B /* SMPlanetGenerator.m */,
+				FF3B70B11D19EFE400A9CD0B /* SMPlanetGenerator.mm */,
 			);
 			path = "Planet Generator";
 			sourceTree = "<group>";
@@ -399,6 +403,24 @@
 				FF3B70B41D19EFEF00A9CD0B /* SMStarGenerator.m */,
 			);
 			path = "Star Generator";
+			sourceTree = "<group>";
+		};
+		FFDA3D531D1C2681008E597D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				FFDA3D541D1C2681008E597D /* PerlinNoise */,
+			);
+			name = Libs;
+			path = SpaceMade/Libs;
+			sourceTree = "<group>";
+		};
+		FFDA3D541D1C2681008E597D /* PerlinNoise */ = {
+			isa = PBXGroup;
+			children = (
+				FFDA3D551D1C2681008E597D /* PerlinNoise.h */,
+				FFDA3D561D1C2681008E597D /* PerlinNoise.m */,
+			);
+			path = PerlinNoise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -545,7 +567,8 @@
 				FF3B70751D19BAA500A9CD0B /* SMAstronomicalObject.m in Sources */,
 				FF3B709C1D19E80000A9CD0B /* GameViewController.m in Sources */,
 				FF3B707E1D19BC9A00A9CD0B /* SMStarSystem.m in Sources */,
-				FF3B70B21D19EFE400A9CD0B /* SMPlanetGenerator.m in Sources */,
+				FFDA3D571D1C2681008E597D /* PerlinNoise.m in Sources */,
+				FF3B70B21D19EFE400A9CD0B /* SMPlanetGenerator.mm in Sources */,
 				FF3B70881D19C24900A9CD0B /* SMUniverseGenerator.m in Sources */,
 				FF3B70B91D19F42800A9CD0B /* SMBrain.m in Sources */,
 				FF3B70811D19BD1A00A9CD0B /* SMPlanet.m in Sources */,
@@ -697,7 +720,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Vladislav Averin (7939B8NQ8X)";
 				GCC_PREFIX_HEADER = SpaceMade/PrefixHeader.pch;
-				INFOPLIST_FILE = SpaceMade/Info.plist;
+				INFOPLIST_FILE = SpaceMade/General/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.SpaceMade;
@@ -712,7 +735,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Vladislav Averin (7939B8NQ8X)";
 				GCC_PREFIX_HEADER = SpaceMade/PrefixHeader.pch;
-				INFOPLIST_FILE = SpaceMade/Info.plist;
+				INFOPLIST_FILE = SpaceMade/General/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orbitum.SpaceMade;
@@ -788,6 +811,7 @@
 				FF3B70621D19B0AF00A9CD0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF3B70631D19B0AF00A9CD0B /* Build configuration list for PBXNativeTarget "SpaceMadeTests" */ = {
 			isa = XCConfigurationList;
@@ -796,6 +820,7 @@
 				FF3B70651D19B0AF00A9CD0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF3B70661D19B0AF00A9CD0B /* Build configuration list for PBXNativeTarget "SpaceMadeUITests" */ = {
 			isa = XCConfigurationList;
@@ -804,6 +829,7 @@
 				FF3B70681D19B0AF00A9CD0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

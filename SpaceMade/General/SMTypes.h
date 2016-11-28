@@ -6,6 +6,8 @@
 //  Copyright © 2016 Vladislav Averin. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 #ifndef SMTypes_h
 #define SMTypes_h
 

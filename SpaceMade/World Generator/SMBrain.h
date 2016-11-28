@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SMPlanet.h"
 
 @interface SMBrain : NSObject
 
@@ -14,6 +15,16 @@
  Game's brain
  */
 + (instancetype)mainBrain;
+
+/**
+ Planet metadata calculation
+ */
+- (SMPlanetBiome)planetBiomeForPlanetIndex:(NSUInteger)planetIndex;
+- (SMPlanetSizeCategory)planetSizeCategoryForPlanetIndex:(NSUInteger)planetIndex;
+- (SMPlanetPhysicalData)planetPhysicalDataForPlanetWithIndex:(NSUInteger)planetIndex
+                                                sizeCategory:(SMPlanetSizeCategory)sizeCategory;
+- (SMPlanetSize)planetSizeForPlanetIndex:(NSUInteger)planetIndex
+                            sizeCategory:(SMPlanetSizeCategory)sizeCategory;
 
 /**
  Random counts for different Universe objects

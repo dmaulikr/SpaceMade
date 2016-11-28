@@ -10,4 +10,14 @@
 
 @implementation SMStarGenerator
 
+#pragma mark - Public interface
+
++ (SMStar *)newStar {
+    return nil;
+}
+
++ (NSArray *)newStars:(NSUInteger)count {
+    return [[NSArray alloc] init];
+}
+
 @end

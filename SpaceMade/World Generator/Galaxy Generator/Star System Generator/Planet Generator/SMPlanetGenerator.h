@@ -12,9 +12,9 @@
 @interface SMPlanetGenerator : NSObject
 
 /**
- Generates unique planet
+ Generates unique planet with given index, starting from star
  */
-+ (SMPlanet *)newPlanet;
++ (SMPlanet *)newPlanetWithIndex:(NSInteger)planetIndex;
 
 /**
  Generates given number of unique planets

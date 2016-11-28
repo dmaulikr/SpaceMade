@@ -8,6 +8,13 @@
 
 #import "SMAstronomicalObject.h"
 
+typedef enum : NSUInteger {
+    SMStarClassUnknown = 0,
+    SMStarClassDwarf,
+    SMStarClassGiant,
+    SMStarClassHypergiant
+} SMStarClass;
+
 /**
  Describes Star — astronomical object, center of Star System.
  */

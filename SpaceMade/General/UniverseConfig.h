@@ -11,7 +11,7 @@
 
 #define SANDBOX_MODE
 
-
+/* Universe config */
 
 #ifdef SANDBOX_MODE
 
@@ -42,6 +42,26 @@
 #define MIN_NUMBER_OF_PLANETS_PER_STAR_SYSTEM 1
 
 #endif
+
+/* Planets config */
+
+#ifdef SANDBOX_MODE
+
+#define PLANET_MAP_HEIGHT_DEFAULT 100
+#define PLANET_MAP_DEEPTH_DEFAULT 100
+
+#define PLANET_PHYSICS_GRAVITY_DEFAULT 9.8
+
+#define PLANET_MAP_LENGTH_DWARF 256
+#define PLANET_MAP_LENGTH_REGULAR 512
+#define PLANET_MAP_LENGTH_GIANT 1024
+
+#else
+
+
+#endif
+
+
 
 
 #endif /* UniverseConfig_h */
